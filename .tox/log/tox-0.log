@@ -1,0 +1,251 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/anaconda3/bin/python', local('/Users/toon/mlflow/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/toon/mlflow/.tox/dist')]
+
+running sdist
+running egg_info
+creating mlflow.egg-info
+writing mlflow.egg-info/PKG-INFO
+writing dependency_links to mlflow.egg-info/dependency_links.txt
+writing entry points to mlflow.egg-info/entry_points.txt
+writing requirements to mlflow.egg-info/requires.txt
+writing top-level names to mlflow.egg-info/top_level.txt
+writing manifest file 'mlflow.egg-info/SOURCES.txt'
+reading manifest file 'mlflow.egg-info/SOURCES.txt'
+writing manifest file 'mlflow.egg-info/SOURCES.txt'
+running check
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating mlflow-0.2.1
+creating mlflow-0.2.1/mlflow
+creating mlflow-0.2.1/mlflow.egg-info
+creating mlflow-0.2.1/mlflow/azureml
+creating mlflow-0.2.1/mlflow/entities
+creating mlflow-0.2.1/mlflow/models
+creating mlflow-0.2.1/mlflow/projects
+creating mlflow-0.2.1/mlflow/protos
+creating mlflow-0.2.1/mlflow/protos/scalapb
+creating mlflow-0.2.1/mlflow/pyfunc
+creating mlflow-0.2.1/mlflow/sagemaker
+creating mlflow-0.2.1/mlflow/sagemaker/container
+creating mlflow-0.2.1/mlflow/sagemaker/container/scoring_server
+creating mlflow-0.2.1/mlflow/server
+creating mlflow-0.2.1/mlflow/server/js
+creating mlflow-0.2.1/mlflow/server/js/build
+creating mlflow-0.2.1/mlflow/server/js/build/static
+creating mlflow-0.2.1/mlflow/server/js/build/static/css
+creating mlflow-0.2.1/mlflow/server/js/build/static/js
+creating mlflow-0.2.1/mlflow/server/js/build/static/media
+creating mlflow-0.2.1/mlflow/server/js/build/webfonts
+creating mlflow-0.2.1/mlflow/store
+creating mlflow-0.2.1/mlflow/tracking
+creating mlflow-0.2.1/mlflow/utils
+copying files to mlflow-0.2.1...
+copying README.rst -> mlflow-0.2.1
+copying setup.py -> mlflow-0.2.1
+copying mlflow/__init__.py -> mlflow-0.2.1/mlflow
+copying mlflow/cli.py -> mlflow-0.2.1/mlflow
+copying mlflow/data.py -> mlflow-0.2.1/mlflow
+copying mlflow/experiments.py -> mlflow-0.2.1/mlflow
+copying mlflow/h2o.py -> mlflow-0.2.1/mlflow
+copying mlflow/sklearn.py -> mlflow-0.2.1/mlflow
+copying mlflow/spark.py -> mlflow-0.2.1/mlflow
+copying mlflow/tensorflow.py -> mlflow-0.2.1/mlflow
+copying mlflow/version.py -> mlflow-0.2.1/mlflow
+copying mlflow.egg-info/PKG-INFO -> mlflow-0.2.1/mlflow.egg-info
+copying mlflow.egg-info/SOURCES.txt -> mlflow-0.2.1/mlflow.egg-info
+copying mlflow.egg-info/dependency_links.txt -> mlflow-0.2.1/mlflow.egg-info
+copying mlflow.egg-info/entry_points.txt -> mlflow-0.2.1/mlflow.egg-info
+copying mlflow.egg-info/not-zip-safe -> mlflow-0.2.1/mlflow.egg-info
+copying mlflow.egg-info/requires.txt -> mlflow-0.2.1/mlflow.egg-info
+copying mlflow.egg-info/top_level.txt -> mlflow-0.2.1/mlflow.egg-info
+copying mlflow/azureml/__init__.py -> mlflow-0.2.1/mlflow/azureml
+copying mlflow/azureml/cli.py -> mlflow-0.2.1/mlflow/azureml
+copying mlflow/entities/__init__.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/_mlflow_object.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/experiment.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/file_info.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/metric.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/param.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/run.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/run_data.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/run_info.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/run_status.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/run_tag.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/entities/source_type.py -> mlflow-0.2.1/mlflow/entities
+copying mlflow/models/__init__.py -> mlflow-0.2.1/mlflow/models
+copying mlflow/projects/__init__.py -> mlflow-0.2.1/mlflow/projects
+copying mlflow/projects/_project_spec.py -> mlflow-0.2.1/mlflow/projects
+copying mlflow/projects/databricks.py -> mlflow-0.2.1/mlflow/projects
+copying mlflow/projects/pollable_run.py -> mlflow-0.2.1/mlflow/projects
+copying mlflow/projects/submitted_run.py -> mlflow-0.2.1/mlflow/projects
+copying mlflow/protos/__init__.py -> mlflow-0.2.1/mlflow/protos
+copying mlflow/protos/databricks_pb2.py -> mlflow-0.2.1/mlflow/protos
+copying mlflow/protos/service_pb2.py -> mlflow-0.2.1/mlflow/protos
+copying mlflow/protos/scalapb/__init__.py -> mlflow-0.2.1/mlflow/protos/scalapb
+copying mlflow/protos/scalapb/scalapb_pb2.py -> mlflow-0.2.1/mlflow/protos/scalapb
+copying mlflow/pyfunc/__init__.py -> mlflow-0.2.1/mlflow/pyfunc
+copying mlflow/pyfunc/cli.py -> mlflow-0.2.1/mlflow/pyfunc
+copying mlflow/pyfunc/scoring_server.py -> mlflow-0.2.1/mlflow/pyfunc
+copying mlflow/pyfunc/spark_model_cache.py -> mlflow-0.2.1/mlflow/pyfunc
+copying mlflow/sagemaker/__init__.py -> mlflow-0.2.1/mlflow/sagemaker
+copying mlflow/sagemaker/cli.py -> mlflow-0.2.1/mlflow/sagemaker
+copying mlflow/sagemaker/container/__init__.py -> mlflow-0.2.1/mlflow/sagemaker/container
+copying mlflow/sagemaker/container/push_image_to_ecr.sh -> mlflow-0.2.1/mlflow/sagemaker/container
+copying mlflow/sagemaker/container/scoring_server/__init__.py -> mlflow-0.2.1/mlflow/sagemaker/container/scoring_server
+copying mlflow/sagemaker/container/scoring_server/nginx.conf -> mlflow-0.2.1/mlflow/sagemaker/container/scoring_server
+copying mlflow/sagemaker/container/scoring_server/serve.py -> mlflow-0.2.1/mlflow/sagemaker/container/scoring_server
+copying mlflow/sagemaker/container/scoring_server/wsgi.py -> mlflow-0.2.1/mlflow/sagemaker/container/scoring_server
+copying mlflow/server/__init__.py -> mlflow-0.2.1/mlflow/server
+copying mlflow/server/handlers.py -> mlflow-0.2.1/mlflow/server
+copying mlflow/server/js/build/asset-manifest.json -> mlflow-0.2.1/mlflow/server/js/build
+copying mlflow/server/js/build/favicon.ico -> mlflow-0.2.1/mlflow/server/js/build
+copying mlflow/server/js/build/fontawesome-all.min.css -> mlflow-0.2.1/mlflow/server/js/build
+copying mlflow/server/js/build/index.html -> mlflow-0.2.1/mlflow/server/js/build
+copying mlflow/server/js/build/manifest.json -> mlflow-0.2.1/mlflow/server/js/build
+copying mlflow/server/js/build/service-worker.js -> mlflow-0.2.1/mlflow/server/js/build
+copying mlflow/server/js/build/static/css/main.37df07de.css -> mlflow-0.2.1/mlflow/server/js/build/static/css
+copying mlflow/server/js/build/static/css/main.37df07de.css.map -> mlflow-0.2.1/mlflow/server/js/build/static/css
+copying mlflow/server/js/build/static/js/main.b61c2ae6.js -> mlflow-0.2.1/mlflow/server/js/build/static/js
+copying mlflow/server/js/build/static/js/main.b61c2ae6.js.map -> mlflow-0.2.1/mlflow/server/js/build/static/js
+copying mlflow/server/js/build/static/media/home-logo.7a9dd62d.png -> mlflow-0.2.1/mlflow/server/js/build/static/media
+copying mlflow/server/js/build/static/media/niagara.dc8f4b7e.jpg -> mlflow-0.2.1/mlflow/server/js/build/static/media
+copying mlflow/server/js/build/webfonts/fa-brands-400.eot -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-brands-400.svg -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-brands-400.ttf -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-brands-400.woff -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-brands-400.woff2 -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-regular-400.eot -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-regular-400.svg -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-regular-400.ttf -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-regular-400.woff -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-regular-400.woff2 -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-solid-900.eot -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-solid-900.svg -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-solid-900.ttf -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-solid-900.woff -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/server/js/build/webfonts/fa-solid-900.woff2 -> mlflow-0.2.1/mlflow/server/js/build/webfonts
+copying mlflow/store/__init__.py -> mlflow-0.2.1/mlflow/store
+copying mlflow/store/abstract_store.py -> mlflow-0.2.1/mlflow/store
+copying mlflow/store/artifact_repo.py -> mlflow-0.2.1/mlflow/store
+copying mlflow/store/file_store.py -> mlflow-0.2.1/mlflow/store
+copying mlflow/store/rest_store.py -> mlflow-0.2.1/mlflow/store
+copying mlflow/tracking/__init__.py -> mlflow-0.2.1/mlflow/tracking
+copying mlflow/tracking/sinks.py -> mlflow-0.2.1/mlflow/tracking
+copying mlflow/utils/__init__.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/cli_args.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/env.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/environment.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/exception.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/file_utils.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/logging_utils.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/process.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/rest_utils.py -> mlflow-0.2.1/mlflow/utils
+copying mlflow/utils/search_utils.py -> mlflow-0.2.1/mlflow/utils
+Writing mlflow-0.2.1/setup.cfg
+creating .tox/dist
+creating '.tox/dist/mlflow-0.2.1.zip' and adding 'mlflow-0.2.1' to it
+adding 'mlflow-0.2.1/PKG-INFO'
+adding 'mlflow-0.2.1/setup.py'
+adding 'mlflow-0.2.1/setup.cfg'
+adding 'mlflow-0.2.1/README.rst'
+adding 'mlflow-0.2.1/mlflow/version.py'
+adding 'mlflow-0.2.1/mlflow/__init__.py'
+adding 'mlflow-0.2.1/mlflow/tensorflow.py'
+adding 'mlflow-0.2.1/mlflow/experiments.py'
+adding 'mlflow-0.2.1/mlflow/cli.py'
+adding 'mlflow-0.2.1/mlflow/spark.py'
+adding 'mlflow-0.2.1/mlflow/sklearn.py'
+adding 'mlflow-0.2.1/mlflow/h2o.py'
+adding 'mlflow-0.2.1/mlflow/data.py'
+adding 'mlflow-0.2.1/mlflow/protos/service_pb2.py'
+adding 'mlflow-0.2.1/mlflow/protos/databricks_pb2.py'
+adding 'mlflow-0.2.1/mlflow/protos/__init__.py'
+adding 'mlflow-0.2.1/mlflow/protos/scalapb/scalapb_pb2.py'
+adding 'mlflow-0.2.1/mlflow/protos/scalapb/__init__.py'
+adding 'mlflow-0.2.1/mlflow/projects/pollable_run.py'
+adding 'mlflow-0.2.1/mlflow/projects/__init__.py'
+adding 'mlflow-0.2.1/mlflow/projects/_project_spec.py'
+adding 'mlflow-0.2.1/mlflow/projects/submitted_run.py'
+adding 'mlflow-0.2.1/mlflow/projects/databricks.py'
+adding 'mlflow-0.2.1/mlflow/server/handlers.py'
+adding 'mlflow-0.2.1/mlflow/server/__init__.py'
+adding 'mlflow-0.2.1/mlflow/server/js/build/favicon.ico'
+adding 'mlflow-0.2.1/mlflow/server/js/build/index.html'
+adding 'mlflow-0.2.1/mlflow/server/js/build/asset-manifest.json'
+adding 'mlflow-0.2.1/mlflow/server/js/build/fontawesome-all.min.css'
+adding 'mlflow-0.2.1/mlflow/server/js/build/manifest.json'
+adding 'mlflow-0.2.1/mlflow/server/js/build/service-worker.js'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-solid-900.ttf'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-regular-400.svg'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-regular-400.woff2'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-solid-900.eot'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-brands-400.svg'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-regular-400.woff'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-brands-400.eot'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-solid-900.svg'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-solid-900.woff'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-regular-400.ttf'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-solid-900.woff2'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-brands-400.woff2'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-brands-400.woff'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-brands-400.ttf'
+adding 'mlflow-0.2.1/mlflow/server/js/build/webfonts/fa-regular-400.eot'
+adding 'mlflow-0.2.1/mlflow/server/js/build/static/css/main.37df07de.css'
+adding 'mlflow-0.2.1/mlflow/server/js/build/static/css/main.37df07de.css.map'
+adding 'mlflow-0.2.1/mlflow/server/js/build/static/js/main.b61c2ae6.js'
+adding 'mlflow-0.2.1/mlflow/server/js/build/static/js/main.b61c2ae6.js.map'
+adding 'mlflow-0.2.1/mlflow/server/js/build/static/media/niagara.dc8f4b7e.jpg'
+adding 'mlflow-0.2.1/mlflow/server/js/build/static/media/home-logo.7a9dd62d.png'
+adding 'mlflow-0.2.1/mlflow/utils/exception.py'
+adding 'mlflow-0.2.1/mlflow/utils/cli_args.py'
+adding 'mlflow-0.2.1/mlflow/utils/env.py'
+adding 'mlflow-0.2.1/mlflow/utils/rest_utils.py'
+adding 'mlflow-0.2.1/mlflow/utils/__init__.py'
+adding 'mlflow-0.2.1/mlflow/utils/environment.py'
+adding 'mlflow-0.2.1/mlflow/utils/file_utils.py'
+adding 'mlflow-0.2.1/mlflow/utils/process.py'
+adding 'mlflow-0.2.1/mlflow/utils/search_utils.py'
+adding 'mlflow-0.2.1/mlflow/utils/logging_utils.py'
+adding 'mlflow-0.2.1/mlflow/models/__init__.py'
+adding 'mlflow-0.2.1/mlflow/tracking/__init__.py'
+adding 'mlflow-0.2.1/mlflow/tracking/sinks.py'
+adding 'mlflow-0.2.1/mlflow/azureml/__init__.py'
+adding 'mlflow-0.2.1/mlflow/azureml/cli.py'
+adding 'mlflow-0.2.1/mlflow/entities/run_status.py'
+adding 'mlflow-0.2.1/mlflow/entities/run.py'
+adding 'mlflow-0.2.1/mlflow/entities/run_info.py'
+adding 'mlflow-0.2.1/mlflow/entities/run_data.py'
+adding 'mlflow-0.2.1/mlflow/entities/run_tag.py'
+adding 'mlflow-0.2.1/mlflow/entities/source_type.py'
+adding 'mlflow-0.2.1/mlflow/entities/__init__.py'
+adding 'mlflow-0.2.1/mlflow/entities/param.py'
+adding 'mlflow-0.2.1/mlflow/entities/metric.py'
+adding 'mlflow-0.2.1/mlflow/entities/experiment.py'
+adding 'mlflow-0.2.1/mlflow/entities/_mlflow_object.py'
+adding 'mlflow-0.2.1/mlflow/entities/file_info.py'
+adding 'mlflow-0.2.1/mlflow/sagemaker/__init__.py'
+adding 'mlflow-0.2.1/mlflow/sagemaker/cli.py'
+adding 'mlflow-0.2.1/mlflow/sagemaker/container/push_image_to_ecr.sh'
+adding 'mlflow-0.2.1/mlflow/sagemaker/container/__init__.py'
+adding 'mlflow-0.2.1/mlflow/sagemaker/container/scoring_server/__init__.py'
+adding 'mlflow-0.2.1/mlflow/sagemaker/container/scoring_server/serve.py'
+adding 'mlflow-0.2.1/mlflow/sagemaker/container/scoring_server/nginx.conf'
+adding 'mlflow-0.2.1/mlflow/sagemaker/container/scoring_server/wsgi.py'
+adding 'mlflow-0.2.1/mlflow/store/file_store.py'
+adding 'mlflow-0.2.1/mlflow/store/abstract_store.py'
+adding 'mlflow-0.2.1/mlflow/store/__init__.py'
+adding 'mlflow-0.2.1/mlflow/store/artifact_repo.py'
+adding 'mlflow-0.2.1/mlflow/store/rest_store.py'
+adding 'mlflow-0.2.1/mlflow/pyfunc/spark_model_cache.py'
+adding 'mlflow-0.2.1/mlflow/pyfunc/scoring_server.py'
+adding 'mlflow-0.2.1/mlflow/pyfunc/__init__.py'
+adding 'mlflow-0.2.1/mlflow/pyfunc/cli.py'
+adding 'mlflow-0.2.1/mlflow.egg-info/PKG-INFO'
+adding 'mlflow-0.2.1/mlflow.egg-info/not-zip-safe'
+adding 'mlflow-0.2.1/mlflow.egg-info/SOURCES.txt'
+adding 'mlflow-0.2.1/mlflow.egg-info/entry_points.txt'
+adding 'mlflow-0.2.1/mlflow.egg-info/requires.txt'
+adding 'mlflow-0.2.1/mlflow.egg-info/top_level.txt'
+adding 'mlflow-0.2.1/mlflow.egg-info/dependency_links.txt'
+removing 'mlflow-0.2.1' (and everything under it)

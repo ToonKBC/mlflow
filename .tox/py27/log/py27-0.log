@@ -1,0 +1,7 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/anaconda3/bin/python', '-m', 'virtualenv', '--python', '/usr/bin/python2.7', 'py27']
+
+New python executable in /Users/toon/mlflow/.tox/py27/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /usr/bin/python2.7

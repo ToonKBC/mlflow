@@ -1,0 +1,3 @@
+#!/Users/toon/mlflow/.tox/py27/bin/python
+from requirements_detector.run import run
+run()

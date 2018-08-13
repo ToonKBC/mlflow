@@ -1,0 +1,107 @@
+actionid: py36
+msg: installpkg
+cmdargs: ['/Users/toon/mlflow/.tox/py36/bin/pip', 'install', '/Users/toon/mlflow/.tox/dist/mlflow-0.2.1.zip']
+
+Processing ./.tox/dist/mlflow-0.2.1.zip
+Collecting awscli (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/15/3e/e2c9f62b89a67cb7ca617ff6d603148b1f3d52def991e95a2e463b8888d5/awscli-1.15.62-py2.py3-none-any.whl
+Collecting click>=6.7 (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/click-6.7-py2.py3-none-any.whl
+Collecting databricks-cli (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+Requirement already satisfied: requests>=2.17.3 in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (2.19.1)
+Requirement already satisfied: six>=1.10.0 in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (1.11.0)
+Collecting uuid (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+Collecting gunicorn (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/8c/da/b8dd8deb741bff556db53902d4706774c8e1e67265f69528c14c003644e6/gunicorn-19.9.0-py2.py3-none-any.whl
+Collecting Flask (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flask-1.0.2-py2.py3-none-any.whl
+Requirement already satisfied: numpy in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (1.14.5)
+Collecting pandas (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/d8/ba/d2c6578afca709e211ac1cd836a66a6a042f1a773a970be345d9d08be426/pandas-0.23.3-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (14.0MB)
+Requirement already satisfied: scipy in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (1.1.0)
+Collecting scikit-learn (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Downloading https://files.pythonhosted.org/packages/cf/db/f6375ee4b604209d88447bffab074f236d5357a4f6fa38901362311ed18d/scikit_learn-0.19.2-cp36-cp36m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (7.1MB)
+Requirement already satisfied: python-dateutil in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (2.6.1)
+Requirement already satisfied: protobuf>=3.6.0 in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (3.6.0)
+Collecting gitpython>=2.1.0 (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/fe/e5/fafe827507644c32d6dc553a1c435cdf882e0c28918a5bab29f7fbebfb70/GitPython-2.1.11-py2.py3-none-any.whl
+Requirement already satisfied: pyyaml in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (3.13)
+Requirement already satisfied: boto3 in ./.tox/py36/lib/python3.6/site-packages (from mlflow==0.2.1) (1.7.61)
+Collecting google-cloud-storage (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/d4/1a/8238dda1547b9b6156f4cfc7923558bb67d6c608a28d677d0dc070babd31/google_cloud_storage-1.10.0-py2.py3-none-any.whl
+Collecting querystring_parser (from mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+Requirement already satisfied: docutils>=0.10 in ./.tox/py36/lib/python3.6/site-packages (from awscli->mlflow==0.2.1) (0.14)
+Requirement already satisfied: s3transfer<0.2.0,>=0.1.12 in ./.tox/py36/lib/python3.6/site-packages (from awscli->mlflow==0.2.1) (0.1.13)
+Requirement already satisfied: colorama<=0.3.9,>=0.2.5 in ./.tox/py36/lib/python3.6/site-packages (from awscli->mlflow==0.2.1) (0.3.9)
+Requirement already satisfied: botocore==1.10.61 in ./.tox/py36/lib/python3.6/site-packages (from awscli->mlflow==0.2.1) (1.10.61)
+Collecting rsa<=3.5.0,>=3.1.2 (from awscli->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/e1/ae/baedc9cb175552e95f3395c43055a6a5e125ae4d48a1d7a924baca83e92e/rsa-3.4.2-py2.py3-none-any.whl
+Requirement already satisfied: tabulate>=0.7.7 in ./.tox/py36/lib/python3.6/site-packages (from databricks-cli->mlflow==0.2.1) (0.8.2)
+Collecting configparser>=0.3.5 (from databricks-cli->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in ./.tox/py36/lib/python3.6/site-packages (from requests>=2.17.3->mlflow==0.2.1) (3.0.4)
+Requirement already satisfied: idna<2.8,>=2.5 in ./.tox/py36/lib/python3.6/site-packages (from requests>=2.17.3->mlflow==0.2.1) (2.7)
+Requirement already satisfied: certifi>=2017.4.17 in ./.tox/py36/lib/python3.6/site-packages (from requests>=2.17.3->mlflow==0.2.1) (2018.4.16)
+Requirement already satisfied: urllib3<1.24,>=1.21.1 in ./.tox/py36/lib/python3.6/site-packages (from requests>=2.17.3->mlflow==0.2.1) (1.23)
+Collecting itsdangerous>=0.24 (from Flask->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz
+Requirement already satisfied: Werkzeug>=0.14 in ./.tox/py36/lib/python3.6/site-packages (from Flask->mlflow==0.2.1) (0.14.1)
+Requirement already satisfied: Jinja2>=2.10 in ./.tox/py36/lib/python3.6/site-packages (from Flask->mlflow==0.2.1) (2.10)
+Requirement already satisfied: pytz>=2011k in ./.tox/py36/lib/python3.6/site-packages (from pandas->mlflow==0.2.1) (2018.5)
+Requirement already satisfied: setuptools in ./.tox/py36/lib/python3.6/site-packages (from protobuf>=3.6.0->mlflow==0.2.1) (40.0.0)
+Collecting gitdb2>=2.0.0 (from gitpython>=2.1.0->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/a9/fb/d3afc4e2a8d506a07af19f125f7a473ae1b56f942ed2ba80776eb8ae23b1/gitdb2-2.0.4-py2.py3-none-any.whl
+Requirement already satisfied: jmespath<1.0.0,>=0.7.1 in ./.tox/py36/lib/python3.6/site-packages (from boto3->mlflow==0.2.1) (0.9.3)
+Collecting google-cloud-core<0.29dev,>=0.28.0 (from google-cloud-storage->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/0f/41/ae2418b4003a14cf21c1c46d61d1b044bf02cf0f8f91598af572b9216515/google_cloud_core-0.28.1-py2.py3-none-any.whl
+Collecting google-resumable-media>=0.3.1 (from google-cloud-storage->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/77/95/2e4020a54366423ddba715f89fb7ca456c8f048b15cada6cd6a54cf10e8c/google_resumable_media-0.3.1-py2.py3-none-any.whl
+Collecting google-api-core<2.0.0dev,>=0.1.1 (from google-cloud-storage->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/d2/03/a83c6d0efa63a13d085b81927fdc9e12ffb98aa0f67798a7573fc6b231e2/google_api_core-1.2.1-py2.py3-none-any.whl
+Collecting pyasn1>=0.1.3 (from rsa<=3.5.0,>=3.1.2->awscli->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/a0/70/2c27740f08e477499ce19eefe05dbcae6f19fdc49e9e82ce4768be0643b9/pyasn1-0.4.3-py2.py3-none-any.whl
+Requirement already satisfied: MarkupSafe>=0.23 in ./.tox/py36/lib/python3.6/site-packages (from Jinja2>=2.10->Flask->mlflow==0.2.1) (1.0)
+Collecting smmap2>=2.0.0 (from gitdb2>=2.0.0->gitpython>=2.1.0->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/0f/14/e3112808b727f72df9531fc2f00b84d4966e66001748b6883a21c767e902/smmap2-2.0.4-py2.py3-none-any.whl
+Collecting google-auth<2.0.0dev,>=0.4.0 (from google-api-core<2.0.0dev,>=0.1.1->google-cloud-storage->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/53/06/6e6d5bfa4d23ee40efd772d6b681a7afecd859a9176e564b8c329382370f/google_auth-1.5.0-py2.py3-none-any.whl
+Collecting googleapis-common-protos<2.0dev,>=1.5.3 (from google-api-core<2.0.0dev,>=0.1.1->google-cloud-storage->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+Collecting cachetools>=2.0.0 (from google-auth<2.0.0dev,>=0.4.0->google-api-core<2.0.0dev,>=0.1.1->google-cloud-storage->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/0a/58/cbee863250b31d80f47401d04f34038db6766f95dea1cc909ea099c7e571/cachetools-2.1.0-py2.py3-none-any.whl
+Collecting pyasn1-modules>=0.2.1 (from google-auth<2.0.0dev,>=0.4.0->google-api-core<2.0.0dev,>=0.1.1->google-cloud-storage->mlflow==0.2.1)
+  Cache entry deserialization failed, entry ignored
+  Using cached https://files.pythonhosted.org/packages/19/02/fa63f7ba30a0d7b925ca29d034510fc1ffde53264b71b4155022ddf3ab5d/pyasn1_modules-0.2.2-py2.py3-none-any.whl
+Building wheels for collected packages: mlflow, itsdangerous
+  Running setup.py bdist_wheel for mlflow: started
+  Running setup.py bdist_wheel for mlflow: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/2d/b2/46/521d5b4b6c1224509cf98ada05c38ebb0e2e47635c901cb7d9
+  Running setup.py bdist_wheel for itsdangerous: started
+  Running setup.py bdist_wheel for itsdangerous: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/2c/4a/61/5599631c1554768c6290b08c02c72d7317910374ca602ff1e5
+Successfully built mlflow itsdangerous
+tensorflow 1.9.0 has requirement setuptools<=39.1.0, but you'll have setuptools 40.0.0 which is incompatible.
+flake8 3.5.0 has requirement pyflakes<1.7.0,>=1.5.0, but you'll have pyflakes 2.0.0 which is incompatible.
+Installing collected packages: pyasn1, rsa, awscli, click, configparser, databricks-cli, uuid, gunicorn, itsdangerous, Flask, pandas, scikit-learn, smmap2, gitdb2, gitpython, cachetools, pyasn1-modules, google-auth, googleapis-common-protos, google-api-core, google-cloud-core, google-resumable-media, google-cloud-storage, querystring-parser, mlflow
+Successfully installed Flask-1.0.2 awscli-1.15.62 cachetools-2.1.0 click-6.7 configparser-3.5.0 databricks-cli-0.7.2 gitdb2-2.0.4 gitpython-2.1.11 google-api-core-1.2.1 google-auth-1.5.0 google-cloud-core-0.28.1 google-cloud-storage-1.10.0 google-resumable-media-0.3.1 googleapis-common-protos-1.5.3 gunicorn-19.9.0 itsdangerous-0.24 mlflow-0.2.1 pandas-0.23.3 pyasn1-0.4.3 pyasn1-modules-0.2.2 querystring-parser-1.2.3 rsa-3.4.2 scikit-learn-0.19.2 smmap2-2.0.4 uuid-1.30

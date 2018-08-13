@@ -1,0 +1,9 @@
+actionid: py36
+msg: getenv
+cmdargs: ['/anaconda3/bin/python', '-m', 'virtualenv', '--python', '/anaconda3/bin/python3.6', 'py36']
+
+Using base prefix '/anaconda3'
+New python executable in /Users/toon/mlflow/.tox/py36/bin/python3.6
+Also creating executable in /Users/toon/mlflow/.tox/py36/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /anaconda3/bin/python3.6

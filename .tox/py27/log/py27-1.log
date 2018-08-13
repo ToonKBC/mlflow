@@ -1,0 +1,269 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/Users/toon/mlflow/.tox/py27/bin/pip', 'install', '-rtox-requirements.txt']
+
+Collecting mock==2.0.0 (from -r tox-requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl
+Collecting moto (from -r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/b3/a8/fccbacf94fdaa474316c4f65289d58b0271d1352e35628014bc071aa7291/moto-1.3.3-py2.py3-none-any.whl
+Collecting prospector[with_pyroma]==0.12.7 (from -r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/f3/66/1b500570209f10c4dc8491e93505c8a52ca06953e25c7881159df3af6604/prospector-0.12.7.tar.gz
+Collecting pep8==1.7.1 (from -r tox-requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/42/3f/669429ce58de2c22d8d2c542752e137ec4b9885fff398d3eceb1a7f5acb4/pep8-1.7.1-py2.py3-none-any.whl
+Collecting pyarrow (from -r tox-requirements.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/38/5d/ee1f7ef8d8803ab74eefe633e227d19a53f12b04e4ac4cc4bdd20664b956/pyarrow-0.9.0.post1-cp27-cp27m-macosx_10_6_intel.whl (9.5MB)
+Collecting pylint==1.8.2 (from -r tox-requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/fc/fe/32faf5617f1b32478c626f93ad533d06b59d2663521403799aac408789ef/pylint-1.8.2-py2.py3-none-any.whl
+Collecting pyspark (from -r tox-requirements.txt (line 8))
+Collecting pytest==3.2.1 (from -r tox-requirements.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/e0/1e/d52c6a3a143935410ee33320341ea7bbb770ca8fe89c3d51e18254e0a2ba/pytest-3.2.1-py2.py3-none-any.whl
+Collecting pytest-cov (from -r tox-requirements.txt (line 10))
+  Using cached https://files.pythonhosted.org/packages/30/7d/7f6a78ae44a1248ee28cc777586c18b28a1df903470e5d34a6e25712b8aa/pytest_cov-2.5.1-py2.py3-none-any.whl
+Collecting rstcheck==3.2 (from -r tox-requirements.txt (line 11))
+  Using cached https://files.pythonhosted.org/packages/33/ba/4a596114611d328d71fd699c9c182c5c11fa01c523fd163e3a038cece2ce/rstcheck-3.2.tar.gz
+Collecting scipy (from -r tox-requirements.txt (line 12))
+  Downloading https://files.pythonhosted.org/packages/d1/d6/3eac96ffcf7cbeb37ed72982cf3fdd3138472cb04ab32cdce1f444d765f2/scipy-1.1.0-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (16.8MB)
+Collecting tensorflow (from -r tox-requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/80/e0/f480d4b60136f8b16250de150abf425a1099d914d36d33bf568b91a10275/tensorflow-1.9.0-cp27-cp27m-macosx_10_11_x86_64.whl (48.9MB)
+Collecting h2o (from -r tox-requirements.txt (line 14))
+Collecting six>=1.9 (from mock==2.0.0->-r tox-requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock==2.0.0->-r tox-requirements.txt (line 2))
+  Using cached https://files.pythonhosted.org/packages/c2/c8/8c718c31de4fc846262d0a62bec12fc896262310bd851482f18aeb2e466d/pbr-4.1.1-py2.py3-none-any.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock==2.0.0->-r tox-requirements.txt (line 2))
+  Downloading https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting boto3>=1.6.16 (from moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/a6/5c/166a9943b9bcfb08b5bd355f055f91eb722b3a2378f65277e7efc6a40835/boto3-1.7.61-py2.py3-none-any.whl (128kB)
+Collecting cryptography>=2.0.0 (from moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/79/a0/b91d31b743b1402295c6cabc8384dea7d0311e19acb21f549e70557394d7/cryptography-2.3-cp27-cp27m-macosx_10_6_intel.whl (1.5MB)
+Collecting cookies (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/6a/60/557f84aa2db629e5124aa05408b975b1b5d0e1cec16cde0bfa06aae097d3/cookies-2.2.1-py2.py3-none-any.whl
+Collecting boto>=2.36.0 (from moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl (1.4MB)
+Collecting python-dateutil<2.7.0,>=2.1 (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/4b/0d/7ed381ab4fe80b8ebf34411d14f253e1cf3e56e2820ffa1d8844b23859a2/python_dateutil-2.6.1-py2.py3-none-any.whl
+Collecting xmltodict (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/42/a9/7e99652c6bc619d19d58cdd8c47560730eb5825d43a7e25db2e1d776ceb7/xmltodict-0.11.0-py2.py3-none-any.whl
+Collecting pyaml (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/17/c1/5892f756109e54ed53c753129b0da4acf6b6add8dff5a85b18667553b16d/pyaml-17.12.1-py2.py3-none-any.whl
+Collecting aws-xray-sdk<0.96,>=0.93 (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/a4/a5/da7887285564f9e0ae5cd25a453cca36e2cd43d8ccc9effde260b4d80904/aws_xray_sdk-0.95-py2.py3-none-any.whl
+Collecting responses (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/d9/a2/1cf64651ca0837ea627fbf0455231611bec85dbb7a9ffe761365950cabe5/responses-0.9.0-py2.py3-none-any.whl
+Collecting werkzeug (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werkzeug-0.14.1-py2.py3-none-any.whl
+Collecting jsondiff==1.1.1 (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/bd/5f/13e28a2f9abeda2ffb3f44f2f809b01b52bc02cdb63816e05b8c9cbbdfc5/jsondiff-1.1.1.tar.gz
+Collecting pytz (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/30/4e/27c34b62430286c6d59177a0842ed90dc789ce5d1ed740887653b898779a/pytz-2018.5-py2.py3-none-any.whl
+Collecting requests>=2.5 (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/65/47/7e02164a2a3db50ed6d8a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requests-2.19.1-py2.py3-none-any.whl
+Collecting Jinja2>=2.7.3 (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinja2-2.10-py2.py3-none-any.whl
+Collecting botocore>=1.9.16 (from moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/c6/46/4595d727e4d57d53ae8ac3e3937527cfaa6d503590db0bbe62a88c35eb2a/botocore-1.10.61-py2.py3-none-any.whl (4.4MB)
+Collecting docker>=2.5.1 (from moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/a5/64/8c0a5d22e70257e6b7ef7f14b577f99f0b9b1560c604f87856d0db80d151/docker-3.4.1-py2.py3-none-any.whl
+Collecting backports.tempfile; python_version < "3.3" (from moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/b4/5c/077f910632476281428fe254807952eb47ca78e720d059a46178c541e669/backports.tempfile-1.0-py2.py3-none-any.whl
+Collecting pylint-celery>=0.3 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d7/11/7241fec486839a853cee783e3a00950d46ee1e3e993884341b1d4208a287/pylint-celery-0.3.tar.gz
+Collecting pylint-django>=0.7.2 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/68/d9/5f3fa1b9d24fd4b2f6e83ecdd8709f1f4bd73434b7c6e94583c088d426ea/pylint-django-0.11.1.tar.gz (43kB)
+Collecting pylint-flask>=0.3 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/ef/21/bdfaf26629b19e14b727e28a16335b88176b7ddca501946fb307a4472ac6/pylint-flask-0.5.tar.gz
+Collecting pylint-plugin-utils>=0.2.6 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/b1/c1/75a481b103fecf8065300681c460dbed80105098c5d63f995ab0949fbfac/pylint-plugin-utils-0.4.tar.gz
+Collecting pylint-common>=0.2.5 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/20/4d/603dc62edf8b303333c5df5ba47eeb2119ef2b87ef0d38356b3e48fa5739/pylint-common-0.2.5.tar.gz
+Collecting requirements-detector>=0.4.1 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/49/b2/375f6fb3544037089468f217f7ccfcd1cabc4ef88316ec74e602063f3da2/requirements-detector-0.5.2.tar.gz
+Collecting setoptconf>=0.2.0 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/6b/5a/9186be8db0804d808a5a82a9b7e47e6260832a5e5b5ec531a1de9dd49076/setoptconf-0.2.0.tar.gz
+Collecting dodgy>=0.1.9 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/6a/ab/752d8ec6b21dfaa9e24e93976b0ef922fca990e80d88627c0dd8eed38f63/dodgy-0.1.9.tar.gz
+Collecting pyyaml (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/9e/a3/1d13970c3f36777c583f136c136f804d70f500168edc1edea6daa7200769/PyYAML-3.13.tar.gz
+Collecting mccabe>=0.5.0 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/87/89/479dc97e18549e21354893e4ee4ef36db1d237534982482c3681ee6e7b57/mccabe-0.6.1-py2.py3-none-any.whl
+Collecting pyflakes>=0.8.1 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/44/98/af7a72c9a543b1487d92813c648cb9b9adfbc96faef5455d60f4439aa99b/pyflakes-2.0.0-py2.py3-none-any.whl (53kB)
+Collecting pycodestyle==2.0.0 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/73/31/136a79364c1681a3c276796d1f5090833bd03461b78a1b037638d1a2c484/pycodestyle-2.0.0-py2.py3-none-any.whl
+Collecting pep8-naming>=0.3.3 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/39/bb/a34544c789e7e5458ed2db6cbd1c8e227bb01e4ce03a0b15ec4ec93e486d/pep8_naming-0.7.0-py2.py3-none-any.whl
+Collecting pydocstyle>=2.0.0 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Downloading https://files.pythonhosted.org/packages/4e/20/c710bd30d53c2786d1d9980a5f66598fb3e7348699858f40def7d625dedb/pydocstyle-2.1.1-py2-none-any.whl
+Collecting pyroma==2.0.2 (from prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/7f/a6/fb9d129a640124292599cb37259ce223e6a0e9224311ed2a3d1faec549e4/pyroma-2.0.2.tar.gz
+Collecting numpy>=1.10 (from pyarrow->-r tox-requirements.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/b6/5e/4b2c794fb57a42e285d6e0fae0e9163773c5a6a6a7e1794967fc5d2168f2/numpy-1.14.5-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (4.7MB)
+Collecting futures (from pyarrow->-r tox-requirements.txt (line 6))
+  Downloading https://files.pythonhosted.org/packages/2d/99/b2c4e9d5a30f6471e410a146232b4118e697fa3ffc06d6a65efde84debd0/futures-3.2.0-py2-none-any.whl
+Collecting astroid<2.0,>=1.6 (from pylint==1.8.2->-r tox-requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/0e/9b/18b08991c8c6aaa827faf394f4468b8fee41db1f73aa5157f9f5fb2e69c3/astroid-1.6.5-py2.py3-none-any.whl (293kB)
+Collecting singledispatch; python_version < "3.4" (from pylint==1.8.2->-r tox-requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/c5/10/369f50bcd4621b263927b0a1519987a04383d4a98fb10438042ad410cf88/singledispatch-3.4.0.3-py2.py3-none-any.whl
+Collecting backports.functools-lru-cache; python_version == "2.7" (from pylint==1.8.2->-r tox-requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/03/8e/2424c0e65c4a066e28f539364deee49b6451f8fcd4f718fefa50cc3dcf48/backports.functools_lru_cache-1.5-py2.py3-none-any.whl
+Collecting configparser; python_version == "2.7" (from pylint==1.8.2->-r tox-requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/7c/69/c2ce7e91c89dc073eb1aa74c0621c3eefbffe8216b3f9af9d3885265c01c/configparser-3.5.0.tar.gz
+Collecting isort>=4.2.5 (from pylint==1.8.2->-r tox-requirements.txt (line 7))
+  Downloading https://files.pythonhosted.org/packages/41/d8/a945da414f2adc1d9e2f7d6e7445b27f2be42766879062a2e63616ad4199/isort-4.3.4-py2-none-any.whl (45kB)
+Collecting py4j==0.10.7 (from pyspark->-r tox-requirements.txt (line 8))
+  Using cached https://files.pythonhosted.org/packages/e3/53/c737818eb9a7dc32a7cd4f1396e787bd94200c3997c72c1dbe028587bd76/py4j-0.10.7-py2.py3-none-any.whl
+Collecting py>=1.4.33 (from pytest==3.2.1->-r tox-requirements.txt (line 9))
+  Using cached https://files.pythonhosted.org/packages/f3/bd/83369ff2dee18f22f27d16b78dd651e8939825af5f8b0b83c38729069962/py-1.5.4-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in ./.tox/py27/lib/python2.7/site-packages (from pytest==3.2.1->-r tox-requirements.txt (line 9)) (40.0.0)
+Collecting coverage>=3.7.1 (from pytest-cov->-r tox-requirements.txt (line 10))
+  Downloading https://files.pythonhosted.org/packages/8a/27/68ca17e26df117a993dec8f590929670f96a976de56d52e6b6c939156013/coverage-4.5.1-cp27-cp27m-macosx_10_12_x86_64.whl (178kB)
+Collecting docutils>=0.7 (from rstcheck==3.2->-r tox-requirements.txt (line 11))
+  Downloading https://files.pythonhosted.org/packages/50/09/c53398e0005b11f7ffb27b7aa720c617aba53be4fb4f4f3f06b9b5c60f28/docutils-0.14-py2-none-any.whl (543kB)
+Collecting termcolor>=1.1.0 (from tensorflow->-r tox-requirements.txt (line 13))
+  Using cached https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+Collecting astor>=0.6.0 (from tensorflow->-r tox-requirements.txt (line 13))
+  Using cached https://files.pythonhosted.org/packages/35/6b/11530768cac581a12952a2aad00e1526b89d242d0b9f59534ef6e6a1752f/astor-0.7.1-py2.py3-none-any.whl
+Collecting enum34>=1.1.6 (from tensorflow->-r tox-requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/c5/db/e56e6b4bbac7c4a06de1c50de6fe1ef3810018ae11732a50f15f62c7d050/enum34-1.1.6-py2-none-any.whl
+Collecting gast>=0.2.0 (from tensorflow->-r tox-requirements.txt (line 13))
+  Using cached https://files.pythonhosted.org/packages/5c/78/ff794fcae2ce8aa6323e789d1f8b3b7765f601e7702726f430e814822b96/gast-0.2.0.tar.gz
+Collecting grpcio>=1.8.6 (from tensorflow->-r tox-requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/66/89/4a90caabd51c17686cbb48a9bbe8c592c4be929c0d2542d2ffde76b0d671/grpcio-1.13.0-cp27-cp27m-macosx_10_12_x86_64.whl (1.6MB)
+Requirement already satisfied: wheel in ./.tox/py27/lib/python2.7/site-packages (from tensorflow->-r tox-requirements.txt (line 13)) (0.31.1)
+Collecting absl-py>=0.1.6 (from tensorflow->-r tox-requirements.txt (line 13))
+  Using cached https://files.pythonhosted.org/packages/57/8d/6664518f9b6ced0aa41cf50b989740909261d4c212557400c48e5cda0804/absl-py-0.2.2.tar.gz
+Collecting tensorboard<1.10.0,>=1.9.0 (from tensorflow->-r tox-requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/d5/98/e2e9d5afbc86cef0b2dd0f4ab791519b9bd305ea207e1e5c2f9a9f2f6da6/tensorboard-1.9.0-py2-none-any.whl (3.3MB)
+Collecting backports.weakref>=1.0rc1 (from tensorflow->-r tox-requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/88/ec/f598b633c3d5ffe267aaada57d961c94fdfa183c5c3ebda2b6d151943db6/backports.weakref-1.0.post1-py2.py3-none-any.whl
+Collecting protobuf>=3.4.0 (from tensorflow->-r tox-requirements.txt (line 13))
+  Downloading https://files.pythonhosted.org/packages/4f/56/a21f2d077ceae7fd521c0ed31fb8bb1c7f13ffbb09bf7dd27de6cf6bad08/protobuf-3.6.0-cp27-cp27m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (1.2MB)
+Collecting colorama>=0.3.8 (from h2o->-r tox-requirements.txt (line 14))
+  Using cached https://files.pythonhosted.org/packages/db/c8/7dcf9dbcb22429512708fe3a547f8b6101c0d02137acbd892505aee57adf/colorama-0.3.9-py2.py3-none-any.whl
+Collecting tabulate (from h2o->-r tox-requirements.txt (line 14))
+  Using cached https://files.pythonhosted.org/packages/12/c2/11d6845db5edf1295bc08b2f488cf5937806586afe42936c3f34c097ebdc/tabulate-0.8.2.tar.gz
+Collecting future (from h2o->-r tox-requirements.txt (line 14))
+  Using cached https://files.pythonhosted.org/packages/00/2b/8d082ddfed935f3608cc61140df6dcbf0edea1bc3ab52fb6c29ae3e81e85/future-0.16.0.tar.gz
+Collecting jmespath<1.0.0,>=0.7.1 (from boto3>=1.6.16->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/b7/31/05c8d001f7f87f0f07289a5fc0fc3832e9a57f2dbd4d3b0fee70e0d51365/jmespath-0.9.3-py2.py3-none-any.whl
+Collecting s3transfer<0.2.0,>=0.1.10 (from boto3>=1.6.16->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/d7/14/2a0004d487464d120c9fb85313a75cd3d71a7506955be458eebfe19a6b1d/s3transfer-0.1.13-py2.py3-none-any.whl
+Collecting ipaddress; python_version < "3" (from cryptography>=2.0.0->moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/fc/d0/7fc3a811e011d4b388be48a0e381db8d990042df54aa4ef4599a31d39853/ipaddress-1.0.22-py2.py3-none-any.whl
+Collecting idna>=2.1 (from cryptography>=2.0.0->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna-2.7-py2.py3-none-any.whl
+Collecting asn1crypto>=0.21.0 (from cryptography>=2.0.0->moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1crypto-0.24.0-py2.py3-none-any.whl (101kB)
+Collecting cffi!=1.11.3,>=1.7 (from cryptography>=2.0.0->moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/7e/4a/b647e46faaa2dcfb16069b6aad2d8509982fd63710a325b8ad7db80f18be/cffi-1.11.5-cp27-cp27m-macosx_10_6_intel.whl (238kB)
+Collecting wrapt (from aws-xray-sdk<0.96,>=0.93->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/a0/47/66897906448185fcb77fc3c2b1bc20ed0ecca81a0f2f88eda3fc5a34fc3d/wrapt-1.10.11.tar.gz
+Collecting jsonpickle (from aws-xray-sdk<0.96,>=0.93->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/32/d5/2f47f03d3f64c31b0d7070b488274631d7567c36e81a9f744e6638bb0f0d/jsonpickle-0.9.6.tar.gz
+Collecting certifi>=2017.4.17 (from requests>=2.5->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/7c/e6/92ad559b7192d846975fc916b65f667c7b8c3a32bea7372340bfe9a15fa5/certifi-2018.4.16-py2.py3-none-any.whl
+Collecting urllib3<1.24,>=1.21.1 (from requests>=2.5->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/bd/c9/6fdd990019071a4a32a5e7cb78a1d92c53851ef4f56f62a3486e6a7d8ffb/urllib3-1.23-py2.py3-none-any.whl
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.5->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.7.3->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+Collecting backports.ssl-match-hostname>=3.5; python_version < "3.5" (from docker>=2.5.1->moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/76/21/2dc61178a2038a5cb35d14b61467c6ac632791ed05131dda72c20e7b9e23/backports.ssl_match_hostname-3.5.0.1.tar.gz
+Collecting websocket-client>=0.32.0 (from docker>=2.5.1->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/8a/a1/72ef9aa26cfe1a75cee09fc1957e4723add9de098c15719416a1ee89386b/websocket_client-0.48.0-py2.py3-none-any.whl
+Collecting docker-pycreds>=0.3.0 (from docker>=2.5.1->moto->-r tox-requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/ea/bf/7e70aeebc40407fbdb96fa9f79fc8e4722ea889a99378303e3bcc73f4ab5/docker_pycreds-0.3.0-py2.py3-none-any.whl
+Collecting flake8-polyfill<2,>=1.0.2 (from pep8-naming>=0.3.3->prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/86/b5/a43fed6fd0193585d17d6faa7b85317d4461f694aaed546098c69f856579/flake8_polyfill-1.0.2-py2.py3-none-any.whl
+Collecting snowballstemmer (from pydocstyle>=2.0.0->prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/d4/6c/8a935e2c7b54a37714656d753e4187ee0631988184ed50c0cf6476858566/snowballstemmer-1.2.1-py2.py3-none-any.whl
+Collecting lazy-object-proxy (from astroid<2.0,>=1.6->pylint==1.8.2->-r tox-requirements.txt (line 7))
+  Using cached https://files.pythonhosted.org/packages/55/08/23c0753599bdec1aec273e322f277c4e875150325f565017f6280549f554/lazy-object-proxy-1.3.1.tar.gz
+Collecting markdown>=2.6.8 (from tensorboard<1.10.0,>=1.9.0->tensorflow->-r tox-requirements.txt (line 13))
+  Using cached https://files.pythonhosted.org/packages/6d/7d/488b90f470b96531a3f5788cf12a93332f543dbab13c423a5e7ce96a0493/Markdown-2.6.11-py2.py3-none-any.whl
+Collecting pycparser (from cffi!=1.11.3,>=1.7->cryptography>=2.0.0->moto->-r tox-requirements.txt (line 3))
+  Downloading https://files.pythonhosted.org/packages/8c/2d/aad7f16146f4197a11f8e91fb81df177adcc2073d36a17b1491fd09df6ed/pycparser-2.18.tar.gz (245kB)
+Collecting flake8 (from flake8-polyfill<2,>=1.0.2->pep8-naming>=0.3.3->prospector[with_pyroma]==0.12.7->-r tox-requirements.txt (line 4))
+  Using cached https://files.pythonhosted.org/packages/b9/dc/14e9d94c770b8c4ef584e906c7583e74864786a58d47de101f2767d50c0b/flake8-3.5.0-py2.py3-none-any.whl
+Building wheels for collected packages: prospector, rstcheck, jsondiff, pylint-celery, pylint-django, pylint-flask, pylint-plugin-utils, pylint-common, requirements-detector, setoptconf, dodgy, pyyaml, pyroma, configparser, termcolor, gast, absl-py, tabulate, future, wrapt, jsonpickle, MarkupSafe, backports.ssl-match-hostname, lazy-object-proxy, pycparser
+  Running setup.py bdist_wheel for prospector: started
+  Running setup.py bdist_wheel for prospector: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/54/84/35/6a82b4f6e5eba0fda37150ce59056dc0e70206c1b0f52ee6d1
+  Running setup.py bdist_wheel for rstcheck: started
+  Running setup.py bdist_wheel for rstcheck: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/cc/ea/93/0d9f8d58765c89a43f51c583811900bc5e5c08b6409572a875
+  Running setup.py bdist_wheel for jsondiff: started
+  Running setup.py bdist_wheel for jsondiff: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/68/08/07/69d839606fb7fdc778fa86476abc0a864693d45969a0c1936c
+  Running setup.py bdist_wheel for pylint-celery: started
+  Running setup.py bdist_wheel for pylint-celery: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/ec/8a/3a/a29c24957e49b24bc9d7416b9d04580c3df70414b2e8b32779
+  Running setup.py bdist_wheel for pylint-django: started
+  Running setup.py bdist_wheel for pylint-django: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/d7/5b/37/89d11f10d6cdb9afd66dc38cd7e930f226c052b9487e966515
+  Running setup.py bdist_wheel for pylint-flask: started
+  Running setup.py bdist_wheel for pylint-flask: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/26/fd/99/b7d0e0869ec1645174ee3e7ad559a3286ce9efdc5e0127aff3
+  Running setup.py bdist_wheel for pylint-plugin-utils: started
+  Running setup.py bdist_wheel for pylint-plugin-utils: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/5d/c9/55/0c51832ac964e81971853c83211914eda59b217f403a9afadf
+  Running setup.py bdist_wheel for pylint-common: started
+  Running setup.py bdist_wheel for pylint-common: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/65/dd/99/305e0991ce432257477df9b8f8975f89051e3f4680fa4652bb
+  Running setup.py bdist_wheel for requirements-detector: started
+  Running setup.py bdist_wheel for requirements-detector: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/3f/e7/19/cd8a5c533526a5e9f5e07ca768197db2743022810a60e7f1b2
+  Running setup.py bdist_wheel for setoptconf: started
+  Running setup.py bdist_wheel for setoptconf: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/4f/a8/f4/4b0033f1a0cc6bf10a3f46519b4be592b1d514a215e3c5201d
+  Running setup.py bdist_wheel for dodgy: started
+  Running setup.py bdist_wheel for dodgy: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/d0/fb/d4/0d338de27e48d1896ffe244a84326998d44fac37a0e733dac1
+  Running setup.py bdist_wheel for pyyaml: started
+  Running setup.py bdist_wheel for pyyaml: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/ad/da/0c/74eb680767247273e2cf2723482cb9c924fe70af57c334513f
+  Running setup.py bdist_wheel for pyroma: started
+  Running setup.py bdist_wheel for pyroma: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/09/af/53/651933136beea2a6800f174a0dad895fe2fe4e74d940a7a7f6
+  Running setup.py bdist_wheel for configparser: started
+  Running setup.py bdist_wheel for configparser: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/a3/61/79/424ef897a2f3b14684a7de5d89e8600b460b89663e6ce9d17c
+  Running setup.py bdist_wheel for termcolor: started
+  Running setup.py bdist_wheel for termcolor: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/7c/06/54/bc84598ba1daf8f970247f550b175aaaee85f68b4b0c5ab2c6
+  Running setup.py bdist_wheel for gast: started
+  Running setup.py bdist_wheel for gast: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/9a/1f/0e/3cde98113222b853e98fc0a8e9924480a3e25f1b4008cedb4f
+  Running setup.py bdist_wheel for absl-py: started
+  Running setup.py bdist_wheel for absl-py: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/a0/f8/e9/1933dbb3447ea6ef57062fd5461cb118deb8c2ed074e8344bf
+  Running setup.py bdist_wheel for tabulate: started
+  Running setup.py bdist_wheel for tabulate: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/2a/85/33/2f6da85d5f10614cbe5a625eab3b3aebfdf43e7b857f25f829
+  Running setup.py bdist_wheel for future: started
+  Running setup.py bdist_wheel for future: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/bf/c9/a3/c538d90ef17cf7823fa51fc701a7a7a910a80f6a405bf15b1a
+  Running setup.py bdist_wheel for wrapt: started
+  Running setup.py bdist_wheel for wrapt: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/48/5d/04/22361a593e70d23b1f7746d932802efe1f0e523376a74f321e
+  Running setup.py bdist_wheel for jsonpickle: started
+  Running setup.py bdist_wheel for jsonpickle: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/07/8b/41/8ce98f4737a9ff61b1bf2673f2abfe66a6a43ad6e91d2c9736
+  Running setup.py bdist_wheel for MarkupSafe: started
+  Running setup.py bdist_wheel for MarkupSafe: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/33/56/20/ebe49a5c612fffe1c5a632146b16596f9e64676768661e4e46
+  Running setup.py bdist_wheel for backports.ssl-match-hostname: started
+  Running setup.py bdist_wheel for backports.ssl-match-hostname: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/99/7e/f7/a88a9bcf7a3bd6b12cf6a74eee8c89746aaa02f71ab7b33939
+  Running setup.py bdist_wheel for lazy-object-proxy: started
+  Running setup.py bdist_wheel for lazy-object-proxy: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/a0/63/e2/6d93295282cb35b53b14b50b602c76dfb04471e21b31d8ad7b
+  Running setup.py bdist_wheel for pycparser: started
+  Running setup.py bdist_wheel for pycparser: finished with status 'done'
+  Stored in directory: /Users/toon/Library/Caches/pip/wheels/c0/a1/27/5ba234bd77ea5a290cbf6d675259ec52293193467a12ef1f46
+Successfully built prospector rstcheck jsondiff pylint-celery pylint-django pylint-flask pylint-plugin-utils pylint-common requirements-detector setoptconf dodgy pyyaml pyroma configparser termcolor gast absl-py tabulate future wrapt jsonpickle MarkupSafe backports.ssl-match-hostname lazy-object-proxy pycparser
+flake8 3.5.0 has requirement pyflakes<1.7.0,>=1.5.0, but you'll have pyflakes 2.0.0 which is incompatible.
+tensorflow 1.9.0 has requirement setuptools<=39.1.0, but you'll have setuptools 40.0.0 which is incompatible.
+Installing collected packages: six, pbr, funcsigs, mock, docutils, jmespath, python-dateutil, botocore, futures, s3transfer, boto3, ipaddress, idna, asn1crypto, pycparser, cffi, enum34, cryptography, cookies, boto, xmltodict, pyyaml, pyaml, certifi, urllib3, chardet, requests, wrapt, jsonpickle, aws-xray-sdk, responses, werkzeug, jsondiff, pytz, MarkupSafe, Jinja2, backports.ssl-match-hostname, websocket-client, docker-pycreds, docker, backports.weakref, backports.tempfile, moto, mccabe, lazy-object-proxy, singledispatch, backports.functools-lru-cache, astroid, configparser, isort, pylint, pylint-plugin-utils, pylint-celery, pylint-django, pylint-flask, pylint-common, requirements-detector, setoptconf, dodgy, pyflakes, pycodestyle, flake8, flake8-polyfill, pep8-naming, snowballstemmer, pydocstyle, pyroma, prospector, pep8, numpy, pyarrow, py4j, pyspark, py, pytest, coverage, pytest-cov, rstcheck, scipy, termcolor, astor, gast, grpcio, absl-py, markdown, protobuf, tensorboard, tensorflow, colorama, tabulate, future, h2o
+Successfully installed Jinja2-2.10 MarkupSafe-1.0 absl-py-0.2.2 asn1crypto-0.24.0 astor-0.7.1 astroid-1.6.5 aws-xray-sdk-0.95 backports.functools-lru-cache-1.5 backports.ssl-match-hostname-3.5.0.1 backports.tempfile-1.0 backports.weakref-1.0.post1 boto-2.49.0 boto3-1.7.61 botocore-1.10.61 certifi-2018.4.16 cffi-1.11.5 chardet-3.0.4 colorama-0.3.9 configparser-3.5.0 cookies-2.2.1 coverage-4.5.1 cryptography-2.3 docker-3.4.1 docker-pycreds-0.3.0 docutils-0.14 dodgy-0.1.9 enum34-1.1.6 flake8-3.5.0 flake8-polyfill-1.0.2 funcsigs-1.0.2 future-0.16.0 futures-3.2.0 gast-0.2.0 grpcio-1.13.0 h2o-3.18.0.11 idna-2.7 ipaddress-1.0.22 isort-4.3.4 jmespath-0.9.3 jsondiff-1.1.1 jsonpickle-0.9.6 lazy-object-proxy-1.3.1 markdown-2.6.11 mccabe-0.6.1 mock-2.0.0 moto-1.3.3 numpy-1.14.5 pbr-4.1.1 pep8-1.7.1 pep8-naming-0.7.0 prospector-0.12.7 protobuf-3.6.0 py-1.5.4 py4j-0.10.7 pyaml-17.12.1 pyarrow-0.9.0.post1 pycodestyle-2.0.0 pycparser-2.18 pydocstyle-2.1.1 pyflakes-2.0.0 pylint-1.8.2 pylint-celery-0.3 pylint-common-0.2.5 pylint-django-0.11.1 pylint-flask-0.5 pylint-plugin-utils-0.4 pyroma-2.0.2 pyspark-2.3.1 pytest-3.2.1 pytest-cov-2.5.1 python-dateutil-2.6.1 pytz-2018.5 pyyaml-3.13 requests-2.19.1 requirements-detector-0.5.2 responses-0.9.0 rstcheck-3.2 s3transfer-0.1.13 scipy-1.1.0 setoptconf-0.2.0 singledispatch-3.4.0.3 six-1.11.0 snowballstemmer-1.2.1 tabulate-0.8.2 tensorboard-1.9.0 tensorflow-1.9.0 termcolor-1.1.0 urllib3-1.23 websocket-client-0.48.0 werkzeug-0.14.1 wrapt-1.10.11 xmltodict-0.11.0
